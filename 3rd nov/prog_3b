@@ -1,24 +1,27 @@
-//Write a program to display the following pattern
+/* Write a program to display the following pattern
 *****
 *   *
 *   *
-*****//
+*****
+*/
 
 package Dipanshu;
 
-public class Question_6 {
+public class Disp_squa {
 	public static void main(String[]args) {
 		int i,j;
-		for(i=0;i<5;i++) {
-			for(j=0;j<5;j++) {
-				if(i==0||i==4||j==0||j==4)
+		for(i=0;i<5;i++) //loop for print row
+		{
+			for(j=0;j<5;j++)//loop for print column
+			{
+				if(i==0||i==4||j==0||j==4)//condition for row and column
 				{
-					System.out.print("*");
+					System.out.print("*");//print *
 				}
 			
 					
 					else {
-						System.out.print(" ");
+						System.out.print(" ");// print space
 					}
 				}
 				System.out.println();
