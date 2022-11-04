@@ -1,13 +1,14 @@
-//Q3_a)Write a program to display the following pattern
+/* Q3_a)Write a program to display the following pattern
 *********
  *******
   *****
    ***
-    *//
+    *
+ */   
     
     package Dipanshu;
 
-public class Question_3a {
+public class Disp_patt{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,11 +17,11 @@ demo();
 	public static void demo()
 	{
 		int i,j;
-		for(i=5;i>=1;i--)
+		for(i=5;i>=1;i--)//loop for print row
 		{
-			for(j=1;j<=i*2-1;j++)
+			for(j=1;j<=i*2-1;j++)//loop for print column
 			{
-				System.out.print("*");
+				System.out.print("*");//print *
 			}
 			System.out.println();
 		}
