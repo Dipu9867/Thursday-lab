@@ -21,18 +21,19 @@ demo();
 		int a=sc.nextInt();
 		System.out.print("Enter the gender M for male amd F for female:-");
 		char g=sc.next().charAt(0);
-		if(a>=60)
+		if(a>=60)//condition for age
 		{
-			if(g=='f')
+			if(g=='f')//condition for gender
 			{
-				System.out.println("Rate of intrest=7.5%");				
+				System.out.println("Rate of intrest=7.5%");//print rate of intrest for female age above 60				
 			}
 			else {
-				System.out.println("Rate of intrest=7%");
+				System.out.println("Rate of intrest=7%");//print rate of intrest for male age above 60	
+			
 			}
 		}
 			else {
-				System.out.println("Rate of intrest=5%");
+				System.out.println("Rate of intrest=5%");//print rate of intrest for age below 60	
 			}
 		}	
 	}
