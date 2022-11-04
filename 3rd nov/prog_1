@@ -19,9 +19,9 @@ demo();
 	{
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter the age:-");
-		int a=sc.nextInt();
+		int age=sc.nextInt();
 		System.out.print("Enter the gender M for male amd F for female:-");
-		char g=sc.next().charAt(0);
+		char gender=sc.next().charAt(0);
 		if(a>=60)//condition for age
 		{
 			if(g=='f')//condition for gender
