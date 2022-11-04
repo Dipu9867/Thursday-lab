@@ -1,11 +1,11 @@
-//Q2_b)Write a program to display the following pattern
+/* Q2_b)Write a program to display the following pattern
     *         	
    ***		
   *****		
  *******		
 *********
 Program:-//
-
+*/
 package Dipanshu;
 
 public class Question2 {
@@ -17,11 +17,11 @@ demo();
 	public static void demo()
 	{
 		int i,j;
-		for(i=1;i<=5;i++)
+		for(i=1;i<=5;i++)//loop for print row
 		{
-			for(j=1;j<=2*i-1;j++)
+			for(j=1;j<=2*i-1;j++)//loop for print column
 			{
-				System.out.print("*");
+				System.out.print("*");//print *
 			}
 			System.out.println();
 		}
